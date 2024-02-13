@@ -1,0 +1,18 @@
+a=[[1,2,3],[4,5,6],[7,8,9]]
+row=len(a)
+col=len(a[0])
+for i in range(0,row):
+    b=0
+    for j in range(0,col):
+       b=b+a[i][j]
+    print(b)
+for i in range(0,row):
+    c=0
+    for j in range(0,col):
+       c=c+a[j][i]
+    print(c)
+d=0
+for k in range(0,row):
+   d=d+a[k][k]
+print(d)
+    
