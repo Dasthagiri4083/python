@@ -1,0 +1,8 @@
+a=input("enter the sentence")
+v=['a','e','i','o','u']
+s=''
+for i in a:
+    if i not in v:
+        s=s+i
+print(s)
+        
