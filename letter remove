@@ -1,0 +1,8 @@
+a=input("enter the sentence")
+v=input("enter the character")
+s=''
+for i in a:
+    if i not in v:
+        s=s+i
+print(s)
+        
